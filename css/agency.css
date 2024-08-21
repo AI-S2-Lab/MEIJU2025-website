@@ -3,8 +3,18 @@ body {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.text-muted {
-    color: #777
+
+@media (max-width: 768px) {
+	.text-muted {
+	    color: #777;
+		font-size: 0.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.text-muted {
+	    color: #777
+	}
 }
 
 .text-primary {
@@ -57,19 +67,20 @@ h6 {
 
 @media (max-width:768px) {
 	h2 {
-		font-size: 2.8rem;
+		font-size: 2.1rem;
 	}
 	h3 {
-		font-size: 1.8rem;
+		font-size: 1.9rem;
 	}
+	
 	
 }
 @media (max-width:768px) {
 	.img-gs {
-		width: 100%;
+		width: 88%;
 	}
 	.img-gs2 {
-		width: 100%;
+		width: 90%;
 	}
 	.home-pad{
 		padding-top: 10px;
@@ -439,7 +450,7 @@ header .intro-text .intro-heading {
  		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
  		text-transform: uppercase;
  		font-weight: 1000;
- 		font-size: qrempx;
+ 		font-size: 1.9rem;
  		line-height: 2px;
  		margin-bottom: 0px
  	}
@@ -488,6 +499,11 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 }
+
+
+
+
+
 header_4 {
     height:600px;
     background-image: url(../img/houston.jpg);
