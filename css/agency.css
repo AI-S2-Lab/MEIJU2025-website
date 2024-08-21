@@ -55,6 +55,42 @@ h6 {
     font-weight: 700
 }
 
+@media (max-width:768px) {
+	h2 {
+		font-size: 2.8rem;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	
+}
+@media (max-width:768px) {
+	.img-gs {
+		width: 100%;
+	}
+	.img-gs2 {
+		width: 100%;
+	}
+	.home-pad{
+		padding-top: 10px;
+	}
+}
+
+@media (min-width:768px) {
+	.img-gs {
+		width: 50%;
+	}
+	.img-gs2 {
+		width: 60%;
+	}
+	.home-pad{
+		padding-top: 30px;
+	}
+}
+
+
+
+
 .img-centered {
     margin: 0 auto
 }
@@ -299,7 +335,7 @@ header .intro-text .intro-heading {
     margin-bottom: 20px
 }
  
-@media (min-width:500px) {
+@media (min-width:768px) {
     header .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
@@ -334,43 +370,82 @@ header .intro-text .intro-heading {
     }
 }
 
-header_3 {
-    height:600px;
-    background-image: url(../img/MEIJU-v8.png);
-    background-repeat: no-repeat;
-	background-size: 100% 100%;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    color: #333;
-}
-header_3 .intro-text {
-    padding-top: 130px;
-    padding-bottom: 50px
-}
+@media (min-width:768px) {
+	header_3 {
+		height:600px;
+		background-image: url(../img/MEIJU-v8.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		text-align: center;
+		color: #333;
+	}
+	header_3 .intro-text {
+		padding-top: 130px;
+		padding-bottom: 50px
+	}
 
-header_3 .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 17px;
-    margin-bottom: 20px
-}
+	header_3 .intro-text .intro-lead-in {
+		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: italic;
+		font-size: 12px;
+		line-height: 17px;
+		margin-bottom: 20px
+	}
 
-header_3 .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 1000;
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 20px
+	header_3 .intro-text .intro-heading {
+		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		font-weight: 1000;
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 20px
+	}
 }
-
  
-@media (min-width:500px) {
+ @media (max-width:768px) {
+ 	header_3 {
+ 		height:240px;
+ 		background-image: url(../img/MEIJU-v8-yd.png);
+ 		background-repeat: no-repeat;
+ 		background-size: 100% 100%;
+ 		background-position: center center;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		-o-background-size: cover;
+ 		background-size: cover;
+ 		text-align: center;
+ 		color: #333;
+ 	}
+ 	header_3 .intro-text {
+		
+ 		padding-top: 10px;
+ 		padding-bottom: 5px
+ 	}
+ 
+ 	header_3 .intro-text .intro-lead-in {
+ 		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 		font-style: italic;
+ 		font-size: 12px;
+ 		line-height: 10px;
+ 		margin-bottom: 10px
+ 	}
+ 
+ 	header_3 .intro-text .intro-heading {
+ 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 		text-transform: uppercase;
+ 		font-weight: 1000;
+ 		font-size: qrempx;
+ 		line-height: 2px;
+ 		margin-bottom: 0px
+ 	}
+ }
+ 
+@media (min-width:768px) {
     header_3 .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
@@ -386,7 +461,7 @@ header_3 .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 42px;
+        font-size: 52px;
         line-height: 40px;
         margin-bottom: 20px
     }
@@ -447,7 +522,7 @@ header_4 .intro-text .intro-heading {
     margin-bottom: 20px
 }
  
-@media (min-width:500px) {
+@media (min-width:768px) {
     header_4 .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
@@ -517,7 +592,7 @@ header_2 .intro-text .intro-heading {
     margin-bottom: 20px
 }
  
-@media (min-width:500px) {
+@media (min-width:768px) {
     header_2 .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
@@ -586,7 +661,7 @@ header_5 .intro-text .intro-heading {
 }
 
  
-@media (min-width:500px) {
+@media (min-width:768px) {
     header_5 .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
@@ -620,12 +695,22 @@ header_5 .intro-text .intro-heading {
         line-height: 40px;
     }
 }
-section {
-    padding: 100px 0
+
+
+@media (min-width: 768px) {
+	section {
+	    padding: 42px 0
+	}
+}
+
+@media (max-width: 768px) {
+	section {
+	    padding: 20px 0
+	}
 }
 
 section h2.section-heading {
-    font-size: 40px;
+    /* font-size: 40px; */
     margin-top: 0;
     margin-bottom: 15px
 }
@@ -639,11 +724,11 @@ section h3.section-subheading {
     margin-bottom: 75px
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
     section {
         padding: 100px 0
     }
-}
+} */
 
 .service-heading {
     margin: 15px 0;
@@ -923,6 +1008,17 @@ section h3.section-subheading {
     margin: 0 auto;
     border: 5px solid #ccc;
 }
+
+@media (max-width:768px) {
+	.team-member img {
+		width: 170px;
+		height: 190px;
+	    margin: 0 auto;
+	    border: 5px solid #ccc;
+	}
+	
+}
+
 
 .team-member h4 {
     margin-top: 25px;
