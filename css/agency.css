@@ -1335,3 +1335,26 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+
+
+@media (max-width:768px) {
+	.wechat-box {
+		text-align: center;
+	}
+	
+	.wechat-img {
+		width: 100%;
+	}
+	
+}
+
+@media (min-width:768px) {
+	.wechat-box {
+		text-align: center;
+	}
+	
+	.wechat-img {
+		width: 30%;
+	}
+	
+}
